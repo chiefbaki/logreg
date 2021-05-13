@@ -18,7 +18,7 @@ if($num == 1){
       $_SESSION['username'] = $name;
       header('location:home.php');
 }else{
-     header('location:login.php');
+     header('location:index.php');
 }
 
 ?>
